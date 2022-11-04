@@ -1,7 +1,7 @@
-== What is this? ==
+## What is this?
 This is @bcrypt's janky twitter replacement.
 
-== History ==
+## History 
 
 [Original tweet](https://twitter.com/bcrypt/status/1588416861552582657):
 
@@ -16,7 +16,7 @@ to follow someone: git remote add <alias> <their fork url>
 to retweet: git cherry-pick <their “tweet”>
 ```
 
-== Setup ==
+## Setup
 
 #. fork https://github.com/diracdeltas/tweets
 #. in your fork: 
@@ -25,7 +25,7 @@ git reset --hard d10b092
 git push -f origin main
 ```
 
-== Stuff you can do ==
+## Stuff you can do
 
 #. to post:
 ```
