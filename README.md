@@ -18,8 +18,8 @@ to retweet: git cherry-pick <their “tweet”>
 
 ## Setup
 
-#. fork https://github.com/diracdeltas/tweets
-#. in your fork: 
+1. fork https://github.com/diracdeltas/tweets
+1. in your fork: 
 ```
 git reset --hard d10b092
 git push -f origin main
@@ -27,21 +27,21 @@ git push -f origin main
 
 ## Stuff you can do
 
-#. to post:
+1. to post:
 ```
 git commit -m "your post" --allow-empty
 git push
 ```
 
-#. to follow someone:
+1. to follow someone:
 ```
 git remote add <git name> <their fork of diracdelta's repo>
 git fetch <git name>
 ```
 
-#. to repeat someone else's utterance:
+1. to repeat someone else's utterance:
 ```
 git cherry-pick <their commit hash>
 ```
 
-#. [people to follow](https://github.com/diracdeltas/tweets/network/members)
+1. [people to follow](https://github.com/diracdeltas/tweets/network/members)
