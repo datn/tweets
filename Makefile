@@ -3,7 +3,7 @@
 everybody:
 	./follow-everybody.bash
 
-go: everybody refresh timeline
+go: everybody timeline
 
 post:
 	git commit -m $(p) --allow-empty
