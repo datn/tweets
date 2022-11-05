@@ -39,6 +39,10 @@ git remote add <git name> <their fork of diracdelta's repo>
 git fetch <git name>
 ```
 
+* to follow everybody:
+`./follow-everybody.bash`
+
+
 * to repeat someone else's utterance:
 ```
 git cherry-pick <their commit hash>
