@@ -45,3 +45,8 @@ git cherry-pick <their commit hash>
 ```
 
 * [people to follow](https://github.com/diracdeltas/tweets/network/members)
+
+* to view your timeline in a cool way:
+```
+git log --graph --all --decorate --oneline
+```
